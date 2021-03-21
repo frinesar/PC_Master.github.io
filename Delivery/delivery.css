@@ -1,0 +1,349 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 900px;
+    background: url("img/Фон\ 1.png");
+}
+
+.nav {
+    font-size: 18px;
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.signMenu {
+    display: none;
+}
+
+.menu {
+    white-space: nowrap;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.tel {
+    font-weight: bold;
+    margin-left: 100px;
+    color: black;
+}
+
+.tel:hover {
+    color: white;
+}
+
+.Delivery {
+    border-bottom: 1px solid #FF3838;
+}
+
+.user {
+    margin-left: auto;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #FF3838;
+    transition: 0.25s all;
+}
+
+.delivery {
+    position: relative;
+    top: 100px;
+    color: white;
+    display: flex;
+}
+
+.text1 {
+    z-index: 1;
+}
+
+.DelivImg1 {
+    z-index: 0;
+}
+
+.DelivImg2 {
+    z-index: 0;
+    display: none;
+}
+
+.section1 {
+    height: 900px;
+    background-color: black;
+}
+
+h1 {
+
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 78px;
+}
+
+.Dlist {
+    top: 30px;
+    max-width: 875px;
+    width: 100%;
+}
+
+.Dlist li p {
+
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.text2 {
+    position: relative;
+    top: 160px;
+    color: white;
+}
+
+.VarsDiv {
+    display: flex;
+}
+
+.Vars {
+    position: relative;
+    font-size: 36px;        
+    font-weight: 200;
+}
+
+.Var1 {
+    position: relative;
+    top: 25px;
+    max-width: 370px;
+}
+
+.PickupK {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+
+    font-size: 24px;
+    line-height: 29px;    
+}
+
+.Descr1 {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+
+    font-size: 18px;
+    line-height: 22px;
+    top: 25px; 
+}
+
+.Var2 {
+    padding-left: 30px;
+    position: relative;
+    top: 25px;
+    max-width: 370px;
+}
+
+.Departm {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 29px;    
+}
+
+.Descr2 {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    top: 25px; 
+}
+
+.Var3 {
+    padding-left: 30px;
+    position: relative;
+    top: 25px;
+    max-width: 370px;
+}
+
+.Courier {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 50px;
+    line-height: 29px;    
+}
+
+.Descr3 {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    top: 25px; 
+}
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+
+    .menu li {
+        margin-right: 25px;
+    }
+
+    .tel {
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+
+    .tel {
+        display: none;
+    }
+    
+    .Dlist li p {
+
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 90%;
+	}
+
+    .menu {
+        display: none;
+    }
+
+    .signMenu {
+        display: block;
+    }
+
+    .text1 {
+        top: 100px;
+    }
+
+    .nav{
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    
+    .user {
+        margin: 0;
+    }
+
+    .DelivImg1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 441px) {
+	.container {
+		width: 100%;
+	}
+
+    .nav{
+        justify-content: space-between;
+        width: 90%;
+        padding-top: 25px;
+        margin: 0 auto;
+        transition: 2s all;
+    }
+
+    header {
+        height: 731px;
+        background: url("img/Фон\ 1\ Mob.png");
+    }
+
+    .DelivImg1 {
+        display: none;
+       
+    }
+    
+
+    .DelivImg2 {
+        display: block; 
+        width: 30%;
+        position: relative;
+        left: 35%;
+        
+        
+    }
+    
+    .delivery {
+        top: 77px;
+        width: 318px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .Dlist {
+        padding: 0;
+    }
+
+    .Dlist ul li {
+        padding-left: opx ;
+        margin-left: 0px ;
+        text-indent: opx ;
+        }
+    
+    .text1{
+        position: relative;
+        display: block;
+        width: 318px;
+        top: 0px;
+    }
+
+    .text2 {
+        width: 318px;
+        margin: 0 auto;
+    }
+
+    .VarsDiv {
+        display: block;
+    }
+    
+    .Var2, .Var3 {
+        margin-top: 100px;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+
+    .Descr1, .Descr2, .Descr3 {
+        margin: 0;
+    }
+
+    .PickupK, .Departm, .Courier {
+        margin-bottom: 0;
+    }
+}

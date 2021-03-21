@@ -1,0 +1,659 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 900px;
+    background: url("img/Фон\ 1.png");
+}
+
+.nav {
+    font-size: 18px;
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.signMenu {
+    display: none;
+}
+
+.menu {
+    white-space: nowrap;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.tel {
+    font-weight: bold;
+    margin-left: 100px;
+    color: black;
+}
+
+.tel:hover {
+    color: white;
+}
+
+
+.user {
+    margin-left: auto;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #FF3838;
+    transition: 0.25s all;
+}
+
+
+.text1 {
+    position: relative;
+    top: 190px;
+    width: 100%;
+    display: flex;
+}
+
+.intext1 {
+    max-width: 435px;
+    width: 100%;
+    z-index: 1;
+}
+
+.MainIdea, .MainIdea2, .MainIdea3, .MainIdea4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    color: white;
+    margin: 0;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.MainIdea4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: white;
+    margin: 0;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+}
+
+.description, .description2, .description3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.button1, .button2, .button2_2, .button3, .button3_3 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    border-style: none;
+    width: 280px;
+    height: 90px;
+    background: #FF3838;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style:normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.PC1 {
+    z-index: 0;
+    position: absolute;
+    right: -175px;
+    bottom: -90px;
+}
+
+.section1 {
+    background: url("img/Фон\ 2.svg");
+    height: 900px;      
+}
+
+.text2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.PC2 {
+    position: absolute;
+    z-index: 0;
+    top: 215px;
+    left: -75px;
+}
+
+.intext2 {
+    max-width: 515px;
+    width: 100%;
+    position: relative;
+    left: 700px;
+    top: 215px;
+    z-index: 1;
+}
+
+.PC2_mob {
+    display: none;
+    position: relative;
+}
+
+.button2_2 {
+    display: none;
+}
+
+.section2 {
+    background: url("img/Фон\ 3.svg") no-repeat center top; 
+    height: 960px;      
+}
+
+.text3 {
+    max-width: 528px;
+    width: 100%;
+    max-height: 461px;
+    height: 100%;
+    top: 215px;
+    position: relative;
+}
+
+.button3_3 {
+    display: none;
+}
+
+.section3{
+    background: url("img/Фон\ 2.svg") no-repeat center top / cover; 
+    height: 1000px; 
+    position: relative;
+}
+
+.text4 {
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    position: relative;
+}
+
+.text4_2 {
+    display: block;
+    position: relative;
+    top: 75px;  
+    color: white;
+    font-size: 24px;
+    max-width: 450px;
+    width: 100%;
+    margin: 0;
+}
+
+ textarea {
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    margin-top: 20px;
+    max-height: 55px;
+    line-height: 55px;
+    height: 100%;
+    resize: none;
+    
+}
+
+.time {
+    margin-top: 20px;
+    font-size: 24px;
+    top: 30px;
+    line-height: 24px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.FromTo textarea, .Untill {
+    font-family: 'Montserrat', sans-serif;
+   
+    font-size: 24px;
+    text-align: center;
+    width: 128px;
+    
+    max-height: 55px;
+    height: 100%;
+    resize: none;
+    margin: 0;
+    border: 0;
+}
+
+.Untill {
+    position: relative;
+    left: 30px;
+}
+
+
+.contacts {
+    position: relative;
+    top: 75px; 
+    left: 350px; 
+    color: white;
+    font-size: 24px;
+    max-width: 350px;
+    width: 100%;
+    margin: 0;
+
+}
+
+.helpDiv {
+    display: flex;
+    position: relative;
+}
+
+.help {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.buttonH {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    top: 25px;
+    border-style: none;
+    width: 300px;
+    height: 45px;
+    background: #FF3838;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style:normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1520px) {
+	.container {
+		width: 1170px;
+	}
+    .PC1{
+        right: -20px;
+        transition: 2s all;
+    }
+    
+    .intext2 {
+        left: 650px;
+        transition: 2s all;
+    }
+
+}
+
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+
+    .menu li {
+        margin-right: 25px;
+    }
+
+    .tel {
+        margin-left: 50px;
+    }
+
+    .PC1{
+        right: -100px;
+        transition: 2s all;
+    }
+
+    .intext2 {
+        left: 450px;
+        transition: 2s all;
+    }
+
+    .contacts {
+        left: 100px;
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+
+    .tel {
+        display: none;
+    }
+    
+    .PC1 {
+        width: 100%;
+        top: -50px;
+        transition: 2s all;
+        
+    }
+
+    .intext2 {
+        left: auto;
+        width: 515px;
+        transition: 2s all;
+    }
+
+    .PC2 {
+        display: none;
+    }
+
+    .MainIdea4 {
+        font-size: 44px;
+        transition: 2s all;
+    }
+
+    .contacts {
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 90%;
+	}
+
+    .menu {
+        display: none;
+    }
+
+    .signMenu {
+        display: block;
+    }
+
+    .text1 {
+        top: 100px;
+    }
+
+    .nav{
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    
+    .user {
+        margin: 0;
+    }
+    
+    .text1{
+        display: block;
+    }
+    
+    .text2{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .intext1 {
+        margin: 0 auto;
+        transition: 2s all;
+    }
+
+    .PC1 {
+        position: relative;
+        right: 15px;
+        bottom: 0px;
+        top: 0px;
+        width: 100%;
+        transition: 2s all;
+    }
+
+    .intext2 {
+        left: auto;
+        margin: 0 auto;
+        width: 100%;
+        transition: 2s all;
+    }
+
+    .PC2 {
+        display: none;
+    }
+
+    .button1 {
+        display: none;
+    }
+
+    .section2 {
+        background: black;
+        height: 960px;
+        position: relative;
+    }
+
+    .text3 {
+        width: 100%;
+    }
+
+    .Start2 {
+        background: url("img/PC\ 3\ 1.svg");
+    }
+
+    .text4 {
+        top: 150px;
+        margin: 0 auto;
+        width: 100%;
+        
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .MainIdea4 {
+        font-size: 36px;
+        line-height: 40px;
+        transition: 2s all;
+    }
+
+    .text4_2 {
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+	.container {
+		width: 90%;
+	}
+
+    .MainIdea, .MainIdea2, .MainIdea3 {
+        font-size: 44px;
+        transition: 2s all;
+    }
+
+    .MainIdea4 {
+        font-size: 36px;
+        line-height: 40px;
+        transition: 2s all;
+    }
+
+    .description, .description2, .description3 {
+        font-size: 18px;
+        transition: 2s all;
+    }
+
+
+}
+
+@media screen and (max-width: 441px) {
+	.container {
+		width: 100%;
+	}
+
+    .nav{
+        justify-content: space-between;
+        width: 90%;
+        padding-top: 25px;
+        margin: 0 auto;
+        transition: 2s all;
+    }
+
+
+    header {
+        height: 731px;
+        background: url("img/Фон\ 1\ Mob.png");
+    }
+
+    .text1 {
+        top: 77px;
+        width: 318px;
+        margin: 0 auto;
+        transition: 2s all;
+    }
+
+    .button1 {
+        display: none;
+    }
+
+    .MainIdea {
+        font-size: 48px;
+    }
+
+
+
+    .MainIdea, .MainIdea2, .MainIdea3, .MainIdea4 {
+        font-size: 36px;
+        line-height: 44px;
+        transition: 2s all;
+    }
+
+    .button2, .button3, .button3_3 {
+        width: 190px;
+        height: 55px;
+        font-size: 18px;
+        transition: 2s all;
+    }
+
+    .description {
+        font-size: 18px;
+        margin-top: 36px;
+        margin-bottom: 0px;
+        transition: 2s all;
+    }
+
+    .intext2 {
+        top: 115px;
+        width: 318px;
+        transition: 2s all;
+    }
+    
+    .description2, .description3 {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        transition: 2s all;
+    }
+
+    .PC2_mob {
+        
+        width: 100%;
+        top: 75px;
+        z-index: 0;
+    }
+
+    .button2 {
+        display: none;
+    }
+
+    .Start{
+        position: relative;
+        top: 80px;
+        display: block;
+        height: 500px;
+        background-image: url("img/PC\ 9\ 1.svg");
+        align-content: center;
+    }
+    
+    .button2_2 {
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        width: 190px;
+        height: 55px;
+        font-size: 18px;
+        z-index: 1;
+    }
+
+    .section2 {
+        background: black;
+        height: 980px;      
+    }
+
+    .text3 {
+        width: 318px;
+        margin: 0 auto;
+        transition: 2s all;
+    }
+
+    .description3 {
+        margin-bottom: 0px;
+    }
+
+    .Start2 {
+        background-image: url("img/PC\ 10.png");
+        position: relative;
+        display: block;
+        height: 460px;
+    }
+
+    .button3 {
+        display: none;
+    }
+    
+    .button3_3 {
+        position: absolute;
+        display: block;
+        bottom: -100px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+
+    .MainIdea4, .helpDiv p {
+        text-align: center;
+    }
+
+    .section3 {
+        height: 1150px;
+    }
+
+    .text4 {
+        width: 318px;
+        margin: 0 auto;
+    }
+}
