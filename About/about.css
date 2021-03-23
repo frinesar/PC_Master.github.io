@@ -77,7 +77,7 @@ header {
     font-size: 64px;
 }
 
-.img1, .text2, .text3 {
+.img1, .text2, .text3, .text4, .text5, .text6 {
     display: flex;
     align-items: center;
 }
@@ -86,7 +86,7 @@ header {
     color: white;
 }
 
-.about1, .about2, .about3{
+.about1, .about2, .about3, .about4, .about5, .about6{
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: 46px;
@@ -95,7 +95,7 @@ header {
     font-weight: 400;  
 }
 
-.about1, .about3 {
+.about1, .about3, .about5{
     position: relative;
     left: 50px;
 }
@@ -107,20 +107,36 @@ header {
 
 
 
-.img2 {
+.img2, .img4, .img6 {
     width: 50%;
     position: relative;
-    left: 20px;
+    margin-left: auto;
 }
 
-.img3 {
-    padding-bottom: 50px;
+.img6 {
+    width: 45%;
 }
 
 .text3 {
     position: relative;
     top: 100px; 
 }
+
+.text4 {
+    position: relative;
+    top: 200px; 
+}
+
+.text5 {
+    position: relative;
+    top: 300px;
+}
+
+.text6 {
+    position: relative;
+    top: 400px;
+}
+
 
 @media screen and (max-width: 1199px) {
 	.container {
