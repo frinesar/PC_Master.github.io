@@ -70,25 +70,23 @@ header {
 
 .text1 {
     position: relative;
-    top: 9  0px;
+    top: 90px;
 }
 
 .about {
+    color: white;
     font-size: 64px;
     font-weight: 400;
     line-height: 78px;
 }
 
-.img1, .text2, .text3, .text4, .text5, .text6, .text7, .text8 {
+.img1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9 {
     display: flex;
     align-items: center;
 }
 
-.about {
-    color: white;
-}
 
-.about1, .about2, .about3, .about4, .about5, .about6, .about7, .about8{
+.about1, .about2, .about3, .about4, .about5, .about6, .about7, .about8, .about9{
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: 46px;
@@ -97,7 +95,7 @@ header {
     font-weight: 400;  
 }
 
-.about1, .about3, .about5, .about7{
+.about1, .about3, .about5, .about7, .about9{
     position: relative;
     left: 50px;
 }
@@ -121,6 +119,11 @@ header {
 
 .img7 {
     width: 45%;
+}
+
+.img9 {
+    width: 45%;
+    padding-bottom: 50px;
 }
 
 .text3 {
@@ -151,6 +154,11 @@ header {
 .text8 {
     position: relative;
     top: 600px;
+}
+
+.text9 {
+    position: relative;
+    top: 700px;
 }
 
 
