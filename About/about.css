@@ -70,14 +70,16 @@ header {
 
 .text1 {
     position: relative;
-    top: 100px;
+    top: 9  0px;
 }
 
 .about {
     font-size: 64px;
+    font-weight: 400;
+    line-height: 78px;
 }
 
-.img1, .text2, .text3, .text4, .text5, .text6, .text7 {
+.img1, .text2, .text3, .text4, .text5, .text6, .text7, .text8 {
     display: flex;
     align-items: center;
 }
@@ -86,7 +88,7 @@ header {
     color: white;
 }
 
-.about1, .about2, .about3, .about4, .about5, .about6, .about7{
+.about1, .about2, .about3, .about4, .about5, .about6, .about7, .about8{
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: 46px;
@@ -107,7 +109,7 @@ header {
 
 
 
-.img2, .img4, .img6 {
+.img2, .img4, .img6, .img8 {
     width: 50%;
     position: relative;
     margin-left: auto;
@@ -144,6 +146,11 @@ header {
 .text7 {
     position: relative;
     top: 500px;
+}
+
+.text8 {
+    position: relative;
+    top: 600px;
 }
 
 
