@@ -27,6 +27,26 @@ header {
     display: none;
 }
 
+.myLinks {
+    position: relative;
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #323232;
+    border-radius: 5px;
+    border: 1px solid #FF3838;
+
+}
+
+.myLinks a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
 .menu {
     white-space: nowrap;
     display: flex;
@@ -80,6 +100,10 @@ header {
     line-height: 78px;
 }
 
+.section1 img {
+    width: 40%;
+}
+
 .img1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9 {
     display: flex;
     align-items: center;
@@ -105,20 +129,10 @@ header {
     top: 150px;
 }
 
-
-
 .img2, .img4, .img6, .img8 {
     width: 50%;
     position: relative;
     margin-left: auto;
-}
-
-.img6 {
-    width: 45%;
-}
-
-.img7 {
-    width: 45%;
 }
 
 .img9 {
@@ -184,6 +198,10 @@ header {
     .tel {
         display: none;
     }
+
+    .section1 img {
+        width: 40%;
+    }
     
 }
 
@@ -198,14 +216,29 @@ header {
 
     .signMenu {
         display: block;
+        background-color: transparent;
+        border: 0;
+        padding: 0;
     }
 
     .text1 {
         top: 100px;
     }
 
-    .Videocards {
-        font-size: 56px;
+    .text1 p {
+        font-size: 40px;
+    }
+
+    .img1 p {
+        font-size: 24px;
+    }
+
+    .section1 img {
+        width: 40%;
+    }
+
+    .section1 p {
+        font-size: 24px;
     }
 
     .nav{
@@ -217,4 +250,57 @@ header {
         margin: 0;
     }
 
+}
+
+@media screen and (max-width: 441px) {
+	.container {
+		width: 100%;
+	}
+
+    .section1, .text1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about1, .about3, .about5, .about7, .about9{
+        position: relative;
+        left: 20px;
+    }
+
+    .section1 img {
+        width: 45%;
+    }
+
+    
+
+    .img1 {
+        display: block;
+        align-items: center;
+    }
+
+    .about1 {
+        left: 0;
+    }
+
+    .section1 p {
+        font-size: 18px;
+    }
+
+    .nav{
+        justify-content: space-between;
+        width: 90%;
+        padding-top: 25px;
+        margin: 0 auto;
+        transition: 2s all;
+    }
+
+    header {
+        height: 731px;
+        background: url("img/Фон\ 1\ Mob.png");
+    }
+
+    .myLinks {
+        width: 90%;
+        margin: 0 auto;
+    }
 }

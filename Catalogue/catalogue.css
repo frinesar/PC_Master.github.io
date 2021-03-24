@@ -27,6 +27,26 @@ header {
     display: none;
 }
 
+.myLinks {
+    position: relative;
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #323232;
+    border-radius: 5px;
+    border: 1px solid #FF3838;
+
+}
+
+.myLinks a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
 .menu {
     white-space: nowrap;
     display: flex;
@@ -161,6 +181,9 @@ header {
 
     .signMenu {
         display: block;
+        background-color: transparent;
+        border: 0;
+        padding: 0;
     }
 
     .text1 {
@@ -203,6 +226,10 @@ header {
         background: url("img/Фон\ 1\ Mob.png");
     }
 
+    .myLinks {
+        width: 90%;
+        margin: 0 auto;
+    }
 
     .Videocards {
         font-size: 36px;

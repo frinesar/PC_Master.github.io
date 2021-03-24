@@ -13,11 +13,10 @@
 <body>
     <header id="header" class="header">
         <div class="container">
-            
             <div class="nav">
-                <a href="main.html">
-                    <img src="img/menu 1.svg" class="signMenu">
-                    </a>
+                <button class="signMenu" onclick="myFunction()">
+                    <img src="img/menu 1.svg">
+                </button>
                 <a href="main.html">
                 <img src="img/Logo.svg" class="logo">
                 </a>
@@ -26,7 +25,7 @@
                         <a href="main.html" class="Main">Главная</a>
                     </li>
                     <li>
-                        <a href="../Catalogue/catalogue.html    ">Каталог</a>
+                        <a href="../Catalogue/catalogue.html">Каталог</a>
                     </li>
                     <li>
                         <a href="../Delivery/delivery.html">Доставка</a>
@@ -41,11 +40,18 @@
                 <img src="img/User.svg" class="user">
             </div>
 
+            <div id="myLinks" class="myLinks">
+                <a href="main.html">Главная</a>
+                <a href="../Catalogue/catalogue.html">Каталог</a>
+                <a href="../Delivery/delivery.html">Доставка</a>
+                <a href="../About/about.html" class="about">О нас</a>
+              </div>
+
             <div class="text1">
                 <div class="intext1">
                     <p class="MainIdea">Компьютер - это просто</p>
                     <p class="description">Онлайн-магазин комьютеров и периферии</p>
-                    <button type="button" class="button1">Каталог товаров</button>
+                    <a href="../Catalogue/catalogue.html" class="button">Каталог товаров</a>
                 </div>
                 <img src="img/PC 1.svg" class="PC1">
 
@@ -118,6 +124,9 @@
             </div>
         </div>
     </section>
+	<script src="../JS/menu.js"></script>
+</body>
+</html>
 
 
 

@@ -67,6 +67,27 @@ header {
     transition: 0.25s all;
 }
 
+.myLinks {
+    position: relative;
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #323232;
+    border-radius: 5px;
+    border: 1px solid #FF3838;
+
+}
+
+.myLinks a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
 
 .text1 {
     position: relative;
@@ -90,6 +111,7 @@ header {
     line-height: 64px;
 }
 
+
 .MainIdea4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
@@ -110,6 +132,21 @@ header {
     line-height: 24px;
     font-weight: 400;
 }
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #FF3838;
+    color: black;
+    width: 280px;
+    height: 90px;
+    border-radius: 5px;
+    line-height: 90px;
+  }
+
 
 .button1, .button2, .button2_2, .button3, .button3_3 {
     font-family: 'Montserrat', sans-serif;
@@ -237,7 +274,7 @@ header {
 }
 
 
-.FromTo textarea, .Untill {
+.FromTo textarea {
     font-family: 'Montserrat', sans-serif;
    
     font-size: 24px;
@@ -259,13 +296,12 @@ header {
 
 .contacts {
     position: relative;
-    top: 75px; 
-    left: 350px; 
+    margin-left: auto;
+    top: 75px;  
     color: white;
     font-size: 24px;
     max-width: 350px;
     width: 100%;
-    margin: 0;
 
 }
 
@@ -309,6 +345,11 @@ header {
         right: -20px;
         transition: 2s all;
     }
+
+    .myLinks {
+        display: none;
+    }
+
     
     .intext2 {
         left: 650px;
@@ -327,6 +368,11 @@ header {
         margin-right: 25px;
     }
 
+    .myLinks {
+        display: none;
+    }
+
+
     .tel {
         margin-left: 50px;
     }
@@ -341,10 +387,10 @@ header {
         transition: 2s all;
     }
 
-    .contacts {
+    /* .contacts {
         left: 100px;
 
-    }
+    } */
 }
 
 @media screen and (max-width: 991px) {
@@ -359,8 +405,11 @@ header {
     .PC1 {
         width: 100%;
         top: -50px;
-        transition: 2s all;
-        
+        transition: 2s all; 
+    }
+
+    .myLinks {
+        display: none;
     }
 
     .intext2 {
@@ -378,9 +427,9 @@ header {
         transition: 2s all;
     }
 
-    .contacts {
+    /* .contacts {
         left: 50px;
-    }
+    } */
 }
 
 @media screen and (max-width: 767px) {
@@ -394,6 +443,9 @@ header {
 
     .signMenu {
         display: block;
+        background-color: transparent;
+        border: 0;
+        padding: 0;
     }
 
     .text1 {
@@ -443,7 +495,7 @@ header {
         display: none;
     }
 
-    .button1 {
+    .button {
         display: none;
     }
 
@@ -499,6 +551,7 @@ header {
         line-height: 40px;
         transition: 2s all;
     }
+    
 
     .description, .description2, .description3 {
         font-size: 18px;
@@ -519,6 +572,11 @@ header {
         padding-top: 25px;
         margin: 0 auto;
         transition: 2s all;
+    }
+
+    .myLinks {
+        width: 90%;
+        margin: 0 auto;
     }
 
 
