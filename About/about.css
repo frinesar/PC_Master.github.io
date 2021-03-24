@@ -104,7 +104,7 @@ header {
     width: 40%;
 }
 
-.img1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9 {
+.text1_1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9 {
     display: flex;
     align-items: center;
 }
@@ -229,11 +229,16 @@ header {
         font-size: 40px;
     }
 
-    .img1 p {
+    .about1, .about3, .about5, .about7, .about9{
+        position: relative;
+        left: 20px;
+    }
+
+    .text1_1 p {
         font-size: 24px;
     }
 
-    .section1 img {
+    .section1 img, .img1 {
         width: 40%;
     }
 
@@ -251,6 +256,7 @@ header {
     }
 
 }
+
 
 @media screen and (max-width: 441px) {
 	.container {
@@ -273,7 +279,7 @@ header {
 
     
 
-    .img1 {
+    .text1_1 {
         display: block;
         align-items: center;
     }
